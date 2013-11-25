@@ -4,8 +4,8 @@ Proof of concept bot for Skype containing a variety of different games and funct
 
 Dependencies
 ------------
-Skype4Py
-pickledb
+* Skype4Py
+* pickledb
 
 Features
 --------
@@ -28,12 +28,20 @@ A List of available commands can be viewed by entering the following command in 
 Example Commands
 ----------------
 !question - Starts the trivia bot
+
 !shuffle - Starts the word shuffle bot
+
 !stop - Stops both trivia/shuffle questions
+
 !8b <query> - 8ball response
+
 !define <query> - Dictionary look-up
+
 !google <query> - Returns top 5 google search results
+
 !cadd <category> <url> - Stores a url in specified <category>
+
 !cget <category> - Returns all stored urls in the specified <category>
+
 !cata - Returns all active categories
 
